@@ -1,0 +1,73 @@
+*{ margin: 0;
+  padding: 0;
+  outline: 0;
+  border:0;
+  box-sizing: border-box;
+  text-decoration:none;
+  text-transform:capitalize;
+  list-style:none;
+   }
+  .flex-div{
+    display:flex;
+    gap:10px;
+  }
+   .main{
+    width: 100%;
+    height: 100vh;
+    background: url(pic1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  position: relative;}
+.main .container form{
+   background: blue;
+   max-width: 450px;
+   height: 550px;
+   margin: auto;
+   position: absolute;
+   top: 0;
+   right: 0;
+   left: 0;
+   bottom: 0;
+   background: rgba(0, 0, 0,.3);
+   padding: 35px;
+   border-radius: 10px;l
+
+}
+.main .container form h1{
+text-align: center;
+color: red;}
+.main .container form p {
+  color: #fff;
+  text-align: center;
+  margin: 13px;
+}
+.main .container form .inputbox input{
+  width: 100%;
+  padding: 10px ;
+  margin: 11px 0;
+  border-radius: 9px;
+}
+.main .container form .inputbox label{
+  color:aqua;
+}
+.main .container form .privacy input{
+  margin-right: 10px;
+}
+.main .container form .privacy p{
+  color:blue ;
+  font-size: 15px;
+
+}
+.main .container form .privacy a{
+  color: green;
+}
+
+.btn{
+  background:gold;
+  width: 100%;
+  padding: 8px 0;
+  color: black;
+  font-size: 19px;
+  border-radius: 9px;
+}
