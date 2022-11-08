@@ -1,2 +1,2 @@
 # project-1
-https://github.com/sksiam1604/project-1.git
+https://sksiam1604.github.io/project-1/
